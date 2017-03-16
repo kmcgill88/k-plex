@@ -14,6 +14,8 @@ make && \
 
 cd /opt && \
 git clone https://github.com/ekim1337/PlexComskip.git && \
-chmod -R 777 /opt/ 
+chmod -R 777 /opt/ && \
+touch /var/log/PlexComskip.log && \
+chmod 777 /var/log/PlexComskip.log
 
 ADD ./PlexComskip.conf /opt/PlexComskip/PlexComskip.conf
