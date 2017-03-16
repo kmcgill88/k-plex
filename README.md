@@ -9,4 +9,6 @@ Conatiner based on [linuxserver/plex](https://hub.docker.com/r/linuxserver/plex/
 - Once running, go to Plex Settings, then DVR (Beta)
 - DVR Settings
 - Scroll to `POSTPROCESSING SCRIPT`
-- Enter `/opt/PlexComskip.py`
+- Enter `/opt/PlexComskip/PlexComskip.py`
+
+When DVR recordings end `Comskip` will automatically run and be added to your Plex library.
