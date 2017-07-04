@@ -18,7 +18,7 @@ RUN apt-get update && \
     git clone https://github.com/ekim1337/PlexComskip.git && \
     chmod -R 777 /opt/ /tmp/ /root/ && \
     touch /var/log/PlexComskip.log && \
-    chmod 777 /var/log/PlexComskip.log
+    chmod 777 /var/log/PlexComskip.log && \
 
 # Cleanup
     apt-get -y autoremove && \
